@@ -1,6 +1,8 @@
 @font-face {
-  font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1634969032472') format('truetype');
+  font-family: "iconfont"; /* Project id 2887684 */
+  src: url('iconfont.woff2?t=1635125910399') format('woff2'),
+       url('iconfont.woff?t=1635125910399') format('woff'),
+       url('iconfont.ttf?t=1635125910399') format('truetype');
 }
 
 .iconfont {
@@ -11,11 +13,63 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-menu:before {
+  content: "\e630";
+}
+
+.icon-showpassword:before {
+  content: "\ea3f";
+}
+
+.icon-users:before {
+  content: "\e651";
+}
+
+.icon-shangpin:before {
+  content: "\e888";
+}
+
+.icon-danju:before {
+  content: "\e89b";
+}
+
+.icon-tijikongjian:before {
+  content: "\e89f";
+}
+
+.icon-morentouxiang:before {
+  content: "\e8c9";
+}
+
+.icon-baobiao:before {
+  content: "\e902";
+}
+
+.icon-yonghu:before {
+  content: "\e652";
+}
+
+.icon-user-fill:before {
+  content: "\e7d5";
+}
+
+.icon-lock2:before {
+  content: "\e611";
+}
+
 .icon-lock2-copy:before {
   content: "\e7d6";
 }
 
 .icon-user-fill-copy:before {
   content: "\e7d7";
+}
+
+.icon-lock:before {
+  content: "\e676";
+}
+
+.icon-user:before {
+  content: "\e682";
 }
 
