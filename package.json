@@ -10,6 +10,8 @@
   "dependencies": {
     "axios": "^0.23.0",
     "core-js": "^3.6.5",
+    "element-china-area-data": "^5.0.2",
+    "element-plus": "^1.0.2-beta.28",
     "element-ui": "^2.4.5",
     "lodash": "^4.17.21",
     "vue": "^2.6.11",
@@ -34,6 +36,7 @@
     "less": "^4.1.2",
     "less-loader": "^4.1.0",
     "vue-cli-plugin-element": "^1.0.1",
+    "vue-cli-plugin-element-plus": "0.0.13",
     "vue-template-compiler": "^2.6.11"
   }
 }
